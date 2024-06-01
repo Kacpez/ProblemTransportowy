@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.Home{
+ background-color: rgb(252, 234, 212);
+ padding: 10px 0 15px 0;
+ margin: 0 0 0 0;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin: auto;
+}
+
+.content-table thead tr {
+  background-color: #2b0abe;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.content-table tbody td:first-child {
+  background-color: #2b0abe; /* Kolor dla pierwszego wiersza */
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+.content-table tbody tr:last-child {
+  background-color: #009879; /* Kolor dla pierwszego wiersza */
+}
+.content-table tbody td:last-child {
+  background-color: #009879; /* Kolor dla pierwszego wiersza */
+}
+
+
+.content-table2 {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin: auto;
+}
+
+.content-table2 thead tr {
+  background-color: #2b0abe;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table2 th,
+.content-table2 td {
+  padding: 12px 15px;
+}
+
+.content-table2 tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table2 tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table2 tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table2 tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.content-table2 tbody td:first-child {
+  background-color: #2b0abe; /* Kolor dla pierwszego wiersza */
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styl dla pojedynczego elementu w kontenerze */
+.container > div {
+  margin: 0 10px; /* Dostosuj odstęp według potrzeb */
+}
